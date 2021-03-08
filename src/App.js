@@ -1,7 +1,7 @@
 import senyores from "./apuntan";
 
 function App() {
-  const capsulas = senyores.map(senyor => <article className="senyor">
+  const tarjetas = senyores.map(senyor => <article className="senyor">
     <div className="avatar">
       <img src={senyor.foto} alt={senyor.nombre + " señalándote con el dedo"} />
       <span className="inicial">{senyor.nombre.charAt(0)}</span>
@@ -24,7 +24,7 @@ function App() {
         <a className="accion-marcar" href="marcar-todos">Marcar todos</a>
       </header>
       <main>
-        {capsulas}
+        {tarjetas}
       </main>
     </div>
   );
