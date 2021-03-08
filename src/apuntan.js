@@ -1,9 +1,13 @@
+import fotoBertin from "./img/bertin.jpg";
+import fotoFary from "./img/fary.jpg";
+import fotoJulio from "./img/julio.jpg";
+
 const senyores = [
   {
     id: 1,
     nombre: "El Fary",
     profesion: "Influencer",
-    foto: "fary.jpg",
+    foto: fotoFary,
     estado: "R.I.P.",
     twitter: "Pendiente",
     marcado: true
@@ -12,7 +16,7 @@ const senyores = [
     id: 2,
     nombre: "Julio Iglesias",
     profesion: "Youtuber",
-    foto: "julio.jpg",
+    foto: fotoJulio,
     estado: "Vivo",
     twitter: "@JulyChurchs",
     marcado: false
@@ -21,7 +25,7 @@ const senyores = [
     id: 3,
     nombre: "Bertín Osborne",
     profesion: "Java Developer",
-    foto: "bertin.jpg",
+    foto: fotoBertin,
     estado: "Vivo",
     twitter: "@BertinOsborne",
     marcado: true
