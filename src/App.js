@@ -9,9 +9,9 @@ function App() {
     <div className="info">
       <h2>{senyor.nombre}</h2>
       <ul>
-        <li><span className="etiqueta">Profesión:</span>{senyor.profesion}</li>
-        <li><span className="etiqueta">Estado:</span>{senyor.estado}</li>
-        <li><span className="etiqueta">Twitter:</span>{senyor.twitter}</li>
+        <li key="profesion"><span className="etiqueta">Profesión:</span>{senyor.profesion}</li>
+        <li key="estado"><span className="etiqueta">Estado:</span>{senyor.estado}</li>
+        <li key="twitter"><span className="etiqueta">Twitter:</span>{senyor.twitter}</li>
       </ul>
     </div>
     <i className="icono fas fa-check"></i>
