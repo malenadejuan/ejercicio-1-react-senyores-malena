@@ -14,8 +14,8 @@ function App() {
         <li><span className="etiqueta">Twitter:</span>{senyor.twitter}</li>
       </ul>
     </div>
-    <i className="icono fas fa-check"></i>
-  </article>);
+    {senyor.marcado ? <i className="icono-marcado fas fa-check"></i> : <i className="icono fas fa-check"></i>}
+  </article >);
   return (
     <div className="contenedor">
       <header className="cabecera">
