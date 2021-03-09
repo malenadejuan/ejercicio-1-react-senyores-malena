@@ -10,7 +10,7 @@ const senyores = [
     foto: fotoFary,
     estado: "R.I.P.",
     twitter: "Pendiente",
-    marcado: true
+    marcado: false
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const senyores = [
     foto: fotoBertin,
     estado: "Vivo",
     twitter: "@BertinOsborne",
-    marcado: true
+    marcado: false
   }
 ];
 
