@@ -3,7 +3,7 @@ import senyores from "./apuntan";
 function App() {
   const tarjetas = senyores.map(senyor => <article key={senyor.id} className="senyor">
     <div className="avatar">
-      <img src={senyor.foto} alt={senyor.nombre + " señalándote con el dedo"} />
+      {senyor.marcado ? <img className="img-marcada" src={senyor.foto} alt={senyor.nombre + " señalándote con el dedo"} /> : <img src={senyor.foto} alt={senyor.nombre + " señalándote con el dedo"} />}
       <span className="inicial">{senyor.nombre.charAt(0)}</span>
     </div>
     <div className="info">
@@ -16,6 +16,7 @@ function App() {
     </div>
     {senyor.marcado ? <i className="icono-marcado fas fa-check"></i> : <i className="icono fas fa-check"></i>}
   </article >);
+
   return (
     <div className="contenedor">
       <header className="cabecera">

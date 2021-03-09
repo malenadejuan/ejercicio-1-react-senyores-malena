@@ -89,6 +89,11 @@ html {
 .senyor:hover .avatar img {
   transform: rotateY(180deg);
 }
+
+.senyor .avatar .img-marcada {
+  transform: rotateY(180deg);
+}
+
 .senyor .avatar .inicial {
   border-radius: 50%;
   background-color: #600;
